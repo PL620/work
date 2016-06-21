@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+#left {
+	height: 628px;
+	width: 5%;
+	background: #505664;
+	color: #c2cbd4;
+	font-size: 12px;
+	float: left;
+}
+#left ul {
+	
+}
+#left_list li {position: relative;width: 68px;}
+#left_list li span {position: absolute;left:30%;top:50%;}
+#left_list .a span {top:58%;}
+#left_list .a {height: 130px;background: url(../图片/61.png)no-repeat 50% 43%;color:#59bafd;}
+#left_list .b {height: 75px;background: url(../图片/62.png)no-repeat 47% 10%;}
+#left_list .c {height: 75px;background: url(../图片/64.png)no-repeat 47% 15%;}
+#left_list .d {height: 350px;background: url(../图片/63.png)no-repeat 47% 63%;}
+#left_list li:hover {color:#59bafd;}
+#left_list .d:hover {height: 350px;background: url(../图片/69.png)no-repeat 47% 63%;}
+#left_list .b:hover {background: url(../图片/67.png)no-repeat 47% 10%;}
+#left_list .c:hover {background: url(../图片/66.png)no-repeat 47.5% 17%;}
+
+
+
+#rigth {width: 94%;
+	float: left;height: 628px;background:#fff url(../图片/68.png)no-repeat 50% 30%;
+}
+#rigth .conceal
+
+
+
+

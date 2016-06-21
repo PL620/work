@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+body,h1,h2,h3,p,ul,ol,header,fieldset,figure,dl,dd,dt,figcaption,input,b {margin: 0;padding: 0;}
+body {
+	background: #fff;
+	overflow: hidden;
+	min-width: 1366px;	
+}
+img {
+	visibility: top;
+	display: block;
+	max-width: 100%;
+}
+ul,ol {
+	list-style: outside none none;
+}
+a {
+	text-decoration: none;
+}
+li:hover {
+	cursor: pointer;
+	opacity: .7;
+	filter:alpha(opacity=70);
+}
+h1 {
+	height: 25px;
+	width: 116px;
+	text-indent: -999px;
+	background: url(../images/cut.png) -2px -2px;
+}
+#header {
+	width: 100%;
+	background: url(../images/bg.png);
+	height: 100px;
+}
+#header_div1 {
+	position: relative;
+	height: 24px;
+	font-size: 12px;
+}
+#header_list {
+	position: absolute;
+	top:0;
+	right: 0;
+}
+#header_list>li {
+	float: left;
+	height: 30px;
+	width: 34px;
+}
+#header_list>li:hover {
+	opacity: .5;
+	filter:alpha(opacity=50);
+}
+#header_list .a {
+	background: url(../images/cut.png) -1207px -2px;
+}
+#header_list .b {
+	background: url(../images/cut.png) -1241px -2px;
+}
+#header_list .c {
+	background: url(../images/cut.png) -1275px -2px;
+}
+#header_list .d {
+	background: url(../images/cut.png) -1309px -2px;
+}
+#header_list .e {
+	background: url(../images/cut.png) -1344px -2px;
+}
+#header_div2 {
+	width: 100%;
+	margin:9px 0 0 17px;
+	height: 55px;
+	font-size: 12px;
+}
+#header_div2 img {
+	float: left;
+}
+#header_div2 figcaption {
+	float: left;
+}
+#header_div2 span {
+	display: block;
+}
+#header_div2 .a {
+	margin-left:13px;
+	text-indent: 10px;
+	background: url(../images/25.png)no-repeat 50% top;
+	height: 21px;
+	line-height: 21px;
+	width: 240px;
+}
+#header_div2 .b {
+	width: 120px;
+	text-align: center;
+	border-radius: 8px;
+	background: #2259ac;
+	margin:7px 0 0 10px;
+}
+#header_div3 {
+	position: absolute;
+	left:300px;
+	top: 0;
+	font-size: 12px;
+}
+#header_div3 li {
+	float: left;
+	height: 97px;
+	width: 97px;
+}
+#header_div3 div {
+	height: 98px;
+	width: 97px;
+}
+#header_div3 .a {
+	background: url(../images/cut.png) -300px 0px;
+}
+#header_div3 .b {
+	background: url(../images/cut.png) -397px 0px;
+}
+#header_div3 .c {
+	background: url(../images/cut.png) -494px 0px;
+}
+#header_div3 .d {
+	background: url(../images/cut.png) -591px 0px;
+}
+#header_div4 {
+	position: absolute;
+	right:0;
+	top:71px;
+	width: 81px;
+	height: 29px;
+	background: url(../images/cut.png) -1264px -69px;
+}
+#striping_new {
+	font-size: 12px;color: #333;
+}
+.active {
+	opacity: .7;filter:alpha(opacity=70);
+}

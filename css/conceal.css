@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#section {width: 100%;
+	height: 560px;
+	background: #fff url(../图片/71.png)no-repeat 50% 50%;
+	position: relative;
+}
+#rigth .conceal {position: absolute;top:50%;left:55%;}
+
+
+
+
+
+
+
+
+
